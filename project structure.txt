@@ -1,0 +1,25 @@
+finsight-ai/
+├── finsight/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── storage.py
+│   ├── analytics.py
+│   ├── ai_categorizer.py
+│   └── cli.py
+├── api/
+│   └── main.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_storage.py
+│   ├── test_analytics.py
+│   └── test_ai.py
+├── requirements.txt
+├── pyproject.toml
+├── Dockerfile
+├── docker-compose.yml
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+└── .github/
+    └── workflows/
+        └── ci.yml

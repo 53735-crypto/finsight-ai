@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  finsight:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./finsight.db:/app/finsight.db
+    environment:
+      - FINSIGHT_DB=/app/finsight.db
